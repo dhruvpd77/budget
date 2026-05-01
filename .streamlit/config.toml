@@ -1,0 +1,14 @@
+# Works locally and on Streamlit Community Cloud / container hosts.
+# See https://docs.streamlit.io/develop/concepts/configuration/options
+
+[server]
+headless = true
+enableCORS = true
+enableXsrfProtection = true
+maxUploadSize = 200
+
+[browser]
+gatherUsageStats = false
+
+[theme]
+base = "dark"

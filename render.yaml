@@ -1,0 +1,8 @@
+# Blueprint for https://render.com — New → Blueprint → paste repo URL
+services:
+  - type: web
+    name: budget-excel-analytics
+    runtime: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
+    healthCheckPath: /_stcore/health
