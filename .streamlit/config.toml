@@ -1,5 +1,5 @@
 # Works locally and on Streamlit Community Cloud / container hosts.
-# See https://docs.streamlit.io/develop/concepts/configuration/options
+# https://docs.streamlit.io/develop/concepts/configuration/options
 
 [server]
 headless = true
@@ -12,3 +12,8 @@ gatherUsageStats = false
 
 [theme]
 base = "dark"
+primaryColor = "#818cf8"
+backgroundColor = "#070a12"
+secondaryBackgroundColor = "#111827"
+textColor = "#e2e8f0"
+font = "sans serif"
